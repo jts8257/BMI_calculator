@@ -9,17 +9,43 @@ const kBottomContainerColor = Color(0xFFEB1555);
 
 const kLabelTextStyle = TextStyle(
   fontSize: 18.0,
-  color: Color(0xFF8D8E98),);
+  color: Color(0xFF8D8E98),
+);
 
 const kNumberStyle = TextStyle(
   fontSize: 50.0,
-  fontWeight: FontWeight.w900,);
+  fontWeight: FontWeight.w900,
+);
 
-const kIconPadding = EdgeInsets.all(10.0);
-const kIconSize = 80.0;
+const kLargeButtonTextStyle = TextStyle(
+  fontSize: 25,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultTitleTextStyle = TextStyle(
+  fontSize: 35,
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+);
+
+const kResultTextStyle = TextStyle(
+  color: Color(0xFF24D876),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultNumberStyle = TextStyle(
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultBodyStyle = TextStyle(
+  fontSize: 22.0,
+);
 
 const kCardMargin = EdgeInsets.all(15.0);
-
+const kIconPadding = EdgeInsets.all(10.0);
+const kIconSize = 80.0;
 const kRoundIconButtonFillColor = Color(0xFF4C4F5E);
 const kRoundIconButtonConstraints = BoxConstraints.tightFor(
   width: 56.0,
